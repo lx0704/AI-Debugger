@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "third-party-suspect-plugin"
+version = "0.0.1"
+description = "Example third-party plugin for suspect (adapter + exporter)"
+authors = [ { name = "Example", email = "dev@example.com" } ]
+
+[project.entry-points]
+"suspect.adapters" = { "example" = "third_party_plugin:ExampleAdapter" }
+"suspect.exporters" = { "example-json" = "third_party_plugin:ExampleExporter" }

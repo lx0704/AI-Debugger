@@ -1,0 +1,60 @@
+{
+  "artifacts": [
+    {
+      "name": "matrix",
+      "filename": "matrix.json",
+      "kind": "suspect",
+      "size": 29484,
+      "created_ts": 1762869347.7947571,
+      "tags": {}
+    },
+    {
+      "name": "matrix",
+      "filename": "matrix.csv",
+      "kind": "suspect",
+      "size": 10918,
+      "created_ts": 1762869347.7946339,
+      "tags": {}
+    },
+    {
+      "name": ".suspect.pytest",
+      "filename": ".suspect.pytest.xml",
+      "kind": "suspect",
+      "size": 3621,
+      "created_ts": 1762869347.794514,
+      "tags": {}
+    },
+    {
+      "name": ".suspect.mutatest",
+      "filename": ".suspect.mutatest.json",
+      "kind": "suspect",
+      "size": 6934,
+      "created_ts": 1762869347.7944021,
+      "tags": {}
+    },
+    {
+      "name": ".suspect",
+      "filename": ".suspect.coveragerc",
+      "kind": "suspect",
+      "size": 85,
+      "created_ts": 1762869347.794295,
+      "tags": {}
+    },
+    {
+      "name": ".suspect.coverage",
+      "filename": ".suspect.coverage.json",
+      "kind": "suspect",
+      "size": 77281,
+      "created_ts": 1762869347.794199,
+      "tags": {}
+    },
+    {
+      "name": ".coverage",
+      "filename": ".coverage",
+      "kind": "suspect",
+      "size": 77824,
+      "created_ts": 1762869347.7940621,
+      "tags": {}
+    }
+  ]
+}

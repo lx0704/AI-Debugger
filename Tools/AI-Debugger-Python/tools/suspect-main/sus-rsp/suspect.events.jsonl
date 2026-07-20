@@ -1,0 +1,6 @@
+{"phase":"run_start","name":"orchestrator","payload":{"adapters":["coverage_sbfl","complexity"]},"timestamp":"2025-11-11T13:55:46.868645Z"}
+{"phase":"adapter_start","name":"coverage_sbfl","payload":{},"timestamp":"2025-11-11T13:55:46.868964Z"}
+{"phase":"adapter_success","name":"coverage_sbfl","payload":{"methods":91,"elapsed_ms":870,"cache":"miss"},"timestamp":"2025-11-11T13:55:47.739887Z"}
+{"phase":"adapter_start","name":"complexity","payload":{},"timestamp":"2025-11-11T13:55:47.740011Z"}
+{"phase":"adapter_success","name":"complexity","payload":{"methods":51,"elapsed_ms":41,"cache":"miss"},"timestamp":"2025-11-11T13:55:47.781146Z"}
+{"phase":"run_end","name":"orchestrator","payload":{"rows":91},"timestamp":"2025-11-11T13:55:47.781261Z"}

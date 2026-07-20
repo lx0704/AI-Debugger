@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68", "wheel", "build"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "suspect"
+version = "0.1.0"
+description = "SUSPECT: Software Understanding via Spectrum, Program Execution, Complexity, and Testing"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+  "coverage[toml]>=7.5",
+  "pytest>=7.4",
+  "radon>=6.0",         # phase 3
+  "lizard>=1.17.10",
+]
+
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Intended Audience :: Developers",
+  "Topic :: Software Development :: Testing",
+]
+
+
+[project.scripts]
+suspect = "suspect.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["suspect*"]
+
+[tool.coverage.run]
+branch = true
+dynamic_context = "test_function"
