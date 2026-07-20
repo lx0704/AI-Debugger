@@ -1,0 +1,10 @@
+com\ksu\HelloMojo.class
+com\ksu\PITestMojo.class
+com\ksu\JacocoMojo$1.class
+com\ksu\SBFLMojo.class
+com\ksu\JacocoMojo.class
+com\ksu\JacocoSurefireInvokerMojo.class
+com\ksu\PerTestCoverageListener.class
+com\ksu\PITestMojo$1.class
+com\ksu\JacocoMojo$2.class
+com\ksu\PITestMojo$2.class
